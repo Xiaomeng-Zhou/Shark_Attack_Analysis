@@ -420,6 +420,8 @@ server <- function(input, output) {
     }
   )
   
+  
+  
   ####################################For Tab "Frequencies"#############################################
   ## For Tab"Frenquencies"
   output$Attack_by_species <- renderPlot({
