@@ -62,7 +62,7 @@ activities <- c("All activity","Paddle and Boogie boarding","Standing", "Surfing
 
 #########################################################################
 ui <- dashboardPage(
-  dashboardHeader(title = h2("Sharks Attacks Analysis")),
+  dashboardHeader(title = "Sharks Attacks Analysis"),
   dashboardSidebar(
       sidebarMenu(
         menuItem("Introduction", tabName = "introduction", icon = icon("dashboard")),
