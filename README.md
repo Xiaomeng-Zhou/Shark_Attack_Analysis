@@ -24,7 +24,7 @@ To view the live app click [here](https://xiaomengdsba.shinyapps.io/Shark_attack
 The highlight of the project is to geocode the shark attack location information and
 create an interactive map. 
 
-The original dataset comes in with three columns: Country, Area and Location to mark
+The original dataset comes in with three columns: ***Country***, ***Area*** and ***Location*** to mark
 the shark attack location information. It does not include the lantitude and longtitude information.
 
 In order to create an interactive map, I first 
