@@ -9,7 +9,7 @@ To view the live app click [here](https://xiaomengdsba.shinyapps.io/Shark_attack
 <hr>
 
 ### Reproduce the app
-<h5> Follow these steps if you would like to download the project files and run it instead of going to the link above: <h5>
+ Follow these steps if you would like to download the project files and run it instead of going to the link above: <h5>
 <ol>
   <li>Download all of the items in the repository</li>
   <li>Open <ins>my dashboard.Rproj</ins> in R Studio</li>
@@ -18,7 +18,9 @@ To view the live app click [here](https://xiaomengdsba.shinyapps.io/Shark_attack
 </ol>
   
 <hr>
+
 ### Data Preprocessing
+
 The highlight of the project is to geocode the shark attack location information and
 create an interactive map. 
 
