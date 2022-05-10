@@ -6,7 +6,6 @@ This app was created as a final project for Chase Romano's Visual Analytics clas
 
 To view the live app click [here](https://xiaomengdsba.shinyapps.io/Shark_attack_analysis/).
 
-
 <hr>
 
 <h5> Follow these steps if you would like to download the project files and run it instead of going to the link above: <h5>
