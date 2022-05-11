@@ -29,7 +29,7 @@ The original dataset came in with three columns: ***Country***, ***Area*** and *
 In order to create an interactive map, I first combined  ***Country***, ***Area*** and ***Location*** as the shark attack address, then used the ***tidygeocoder*** package to geocode
 the address.  
 
-The geocoding code can be accessed at the folder***Preprocess_Geocoding*** in the repository.
+The geocoding code can be accessed in the folder***Preprocess_Geocoding*** in the repository.
 
 
 ### Data Sources
