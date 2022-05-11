@@ -11,7 +11,7 @@ To view the live app click [here](https://xiaomengdsba.shinyapps.io/Shark_attack
 ### Reproduce the app
  Follow these steps if you would like to download the project files and run it instead of going to the link above: <h5>
 <ol>
-  <li>Download all of the items expect <ins>Preprocess_Geocoding</ins>folder in the repository</li>
+  <li>Download all of the items expect <ins>Preprocess_Geocoding</ins> folder in the repository</li>
   <li>Open <ins>my dashboard.Rproj</ins> in R Studio</li>
   <li>Open the file named <ins>dashboard_final.R</ins></li>
   <li>Click <ins>Run App</ins> in the upper right corner of the code panel</li>
@@ -29,7 +29,7 @@ The original dataset came in with three columns: ***Country***, ***Area*** and *
 In order to create an interactive map, I first combined  ***Country***, ***Area*** and ***Location*** as the shark attack address, then used the ***tidygeocoder*** package to geocode
 the address.  
 
-The geocoding code can be accessed in the folder***Preprocess_Geocoding*** in the repository.
+The geocoding code can be accessed in the folder ***Preprocess_Geocoding*** in the repository.
 
 
 ### Data Sources
