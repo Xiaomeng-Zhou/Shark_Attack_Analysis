@@ -24,13 +24,12 @@ To view the live app click [here](https://xiaomengdsba.shinyapps.io/Shark_attack
 The highlight of the project is to geocode the shark attack location information and
 create an interactive map. 
 
-The original dataset comes in with three columns: ***Country***, ***Area*** and ***Location*** to mark
-the shark attack location information. It does not include the lantitude and longtitude information.
+The original dataset came in with three columns: ***Country***, ***Area*** and ***Location*** to mark the shark attack location information. It did not include the lantitude and longtitude when shark attack happened.
 
 In order to create an interactive map, I first 
 
 
-<h5>Data Sources</h5>
+### Data Sources
 
 You may access the data from the Kaggle website using the link below:
 <ul>

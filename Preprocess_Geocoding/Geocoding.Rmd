@@ -1,0 +1,59 @@
+---
+title: "Geocoding"
+author: "Xiaomeng Zhou"
+date: "4/18/2022"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    theme: united
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,warning = FALSE,message = FALSE)
+```
+
+## loading libraries
+
+
+```{r}
+library(dplyr)
+library(tidyverse)
+#install.packages('tidygeocoder')
+library(tidygeocoder)
+
+```
+
+## loading data and mutate the address column based on "Location""Area" and "Country"
+```{r}
+df <- read.csv("data/sharks.csv")
+
+df <- mutate(df, address = paste(Location,",", Area,",", Country))
+
+addr <- as.data.frame(unique(df$address))
+
+# rename column
+names(addr)[names(addr)=="unique(df$address)"] <- "addr_combine" 
+colnames(addr)
+
+```
+
+
+## Geocoding 
+
+```{r}
+lat_longs <- addr %>%
+  geocode(addr_combine, method = 'arcgis', lat = latitude , long = longitude)
+
+```
+
+## Add longtitude and lantitude columns to the orignal dataframe
+```{r}
+df <- left_join(df,lat_longs,by= c("address" = "addr_combine"))
+```
+
+## output csv
+```{r}
+write.csv(df,"sharks_geocoding.csv", row.names = FALSE)
+```
+
