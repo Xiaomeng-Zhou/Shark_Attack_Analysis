@@ -109,7 +109,7 @@ ui <- dashboardPage(
                   # select country/place
                   pickerInput(inputId = "country", label = h4(strong("Country/Place")),
                               choices = countries,selected = "All place",
-                              options = pickerOptions(liveSearch = TRUE
+                              options =  pickerOptions(liveSearch = TRUE
                                             )),
                   
                   hr(),
